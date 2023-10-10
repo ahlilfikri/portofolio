@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useRef } from "react";
+import { Fragment, useEffect, useRef } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,7 +15,6 @@ const Contact = () => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     contentElement.style.opacity = '1';
-                    console.log("Element masuk ke dalam viewport");
                 }
             });
         });

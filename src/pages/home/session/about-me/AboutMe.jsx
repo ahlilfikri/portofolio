@@ -19,7 +19,6 @@ const AboutMe = () => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     contentElement.style.opacity = '1';
-                    console.log("Elemen masuk ke dalam viewport");
                 }
             });
         });
