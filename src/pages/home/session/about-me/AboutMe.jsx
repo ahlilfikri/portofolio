@@ -40,7 +40,7 @@ const AboutMe = () => {
             <Modal
                 isOpen={resumeOpen}
                 onClose={() => setResumeOpen(false)}
-                image={"../../../../../src/assets/CV.png"}
+                image={"/portofolio/CV.png"}
             />
         </Fragment>
     )
