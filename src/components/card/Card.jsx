@@ -9,7 +9,9 @@ const Card = ({title, description, image}) =>{
       };
     return (
         <div className="card">
-            <div className="image-card" style={{backgroundImage : `url(${image})`}}></div>
+            <div className="card-image">
+                <img src={image} alt="" />
+            </div>
             <div className="title-card">{title}</div>
             <div className="description-card">{description}</div>
         </div>
