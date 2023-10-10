@@ -5,28 +5,29 @@ import Slider from 'react-slick';
 import Card from '../../../../components/card/Card'
 import settings from '../../../../constanta/experience-setting/ExperienceSetting'
 import './Experience.css'
+// import tkr from '../../../../assets/PDAMTKR.png'
 
 const Experience = () =>{
     const data = [
         {
             title : "PDAM Tirta Kerta Raharja administration",
             description : "Administration website for internal PDAM Tirta Kerta Raharja",
-            image : "./src/assets/PDAMTKR.png"
+            image : "/PDAMTKR.png"
         },
         {
             title : "PDAM Tirta Kerta Raharja Training center",
             description : "Training website for External or PDAM Tirta Kerta Raharja employee ",
-            image : "./src/assets/PDAMTKR.png"
+            image : "/PDAMTKR.png"
         },
         {
             title : "PT Rahayu Antara Nusindo",
             description : "Company profile website for PT Rahayu Antara Nusindo",
-            image : "./src/assets/RAN.png"
+            image : "/RAN.png"
         },
         {
             title : "PT Rahayu Antara Nusindo",
             description : "Company profile website for PT Rahayu Antara Nusindo",
-            image : "./src/assets/RAN.png"
+            image : "/RAN.png"
         }
     ]
 
