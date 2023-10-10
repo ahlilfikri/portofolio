@@ -12,22 +12,22 @@ const Experience = () =>{
         {
             title : "PDAM Tirta Kerta Raharja administration",
             description : "Administration website for internal PDAM Tirta Kerta Raharja",
-            image : "/PDAMTKR.png"
+            image : "/portofolio/PDAMTKR.png"
         },
         {
             title : "PDAM Tirta Kerta Raharja Training center",
             description : "Training website for External or PDAM Tirta Kerta Raharja employee ",
-            image : "/PDAMTKR.png"
+            image : "/portofolio/PDAMTKR.png"
         },
         {
             title : "PT Rahayu Antara Nusindo",
             description : "Company profile website for PT Rahayu Antara Nusindo",
-            image : "/RAN.png"
+            image : "/portofolio/RAN.png"
         },
         {
             title : "PT Rahayu Antara Nusindo",
             description : "Company profile website for PT Rahayu Antara Nusindo",
-            image : "/RAN.png"
+            image : "/portofolio/RAN.png"
         }
     ]
 
