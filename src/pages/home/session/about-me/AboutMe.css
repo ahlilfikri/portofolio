@@ -9,7 +9,7 @@
 
 .about-me-container h1 {
     margin: auto;
-    width: fit-content;
+    max-width: max-content;
     color: #454A52;
     font-size: 60px;
 }

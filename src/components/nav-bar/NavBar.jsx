@@ -14,8 +14,10 @@ const NavBar = () => {
           const screenWidth = window.innerWidth;
 
           if (screenWidth > 600) {
+            console.log("ini > 600",isopen)
             setIsOpen(true);
           } else {
+            console.log("ini < 600",isopen)
             setIsOpen(false);
           }
         };
@@ -24,7 +26,7 @@ const NavBar = () => {
         return () => {
           window.removeEventListener('resize', handleResize);
         };
-      }, []);
+      }, [isopen]);
     
 
     return (

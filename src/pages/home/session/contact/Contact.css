@@ -149,6 +149,16 @@
     }
 }
 
+@media (max-width: 430px) and (min-height: 700px)   {
+    .contact-container{
+        height: 200vh !important;
+    }
+    .contact-container .content-right{
+        margin-top: 10vh !important;
+        background-color: #F5F5F5 !important;
+    }
+}
+
 @media (max-width: 960px) {
     .contact-container {
         height: 1550px ;
@@ -160,11 +170,13 @@
     }
     .contact-container .mapStyle {
         height: 90vh;
+        margin-left: 20px;
     }
     .contact-container .address-box {
         position : relative;
         top : -30vh;
         padding: 30px;
+        margin-left: 10px;
     }
     .contact-container .address-box h5{
         font-size: 16px;
@@ -211,9 +223,13 @@
 
 @media (max-width: 680px) {
     .contact-container{
-        height: 220vh;
+        height: max-content;
         padding-bottom: 0 !important;
         margin-bottom:0 !important ;
+    }
+
+    .contact-container .content-right{
+        padding-bottom: 500px;
     }
 
 }

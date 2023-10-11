@@ -42,9 +42,9 @@
     .card {
         width: 200px;
     }
-    .card .image-card {
-        width: 150px !important;
-        height: 150px !important;
+    .card img {
+        position: relative;
+        left: 50%;
     }
     .title-card {
         width: 175px;

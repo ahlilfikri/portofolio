@@ -65,8 +65,12 @@ const Contact = () => {
                             <p>+62 882-1033-5073</p>
                         </div>
                         <div className="social-media">
-                            <FontAwesomeIcon className="instagram" icon={faInstagram} size="xl" color="grey" />
-                            <FontAwesomeIcon className="linkedin" icon={faLinkedin} size="xl" color="grey" />
+                            <a href="https://www.instagram.com/ahlilfikri94" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon className="instagram" icon={faInstagram} size="xl" color="grey" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhamad-ahlil-fikri-ba7a51282" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon className="linkedin" icon={faLinkedin} size="xl" color="grey" />
+                            </a>
                         </div>
                     </div>
                 </div>
