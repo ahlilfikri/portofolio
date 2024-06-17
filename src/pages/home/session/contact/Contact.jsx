@@ -2,7 +2,7 @@ import { Fragment, useEffect, useRef } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Contact.css';
 
 const Contact = () => {
@@ -70,6 +70,9 @@ const Contact = () => {
                             </a>
                             <a href="https://www.linkedin.com/in/muhamad-ahlil-fikri-ba7a51282" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon className="linkedin" icon={faLinkedin} size="xl" color="grey" />
+                            </a>
+                            <a href="https://github.com/ahlilfikri" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon className="github" icon={faGithub} size="xl" color="grey" />
                             </a>
                         </div>
                     </div>

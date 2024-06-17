@@ -34,13 +34,13 @@ const AboutMe = () => {
         <Fragment>
             <div className="about-me-container" ref={contentRef}>
                 <h1>About Me</h1>
-                <p>I am a programmer who focuses on developing a website that can be used for commercial, business, personal and internal organizational purposes. I like building websites with a friendly user interface and user experience so I can handle both frontend and backend.</p>
-                <button onClick={modal}>My Resume</button>
+                <p>Hello, my name is Muhamad Ahlil Fikri. I am a 6th-semester student majoring in Information Technology at Telkom University, and I am currently an active student. I have a strong interest in developing and building dynamic, responsive, and user-friendly websites. Additionally, I have one year of experience working as a full-stack web developer. Currently, I am also participating in the Bangkit Academy 2024 program with a focus on the Android Learning Path to further enhance my skills and knowledge in mobile application development.</p>
+                <button className="btn btn-secondary" onClick={modal}>View My Resume</button>
             </div>
             <Modal
                 isOpen={resumeOpen}
                 onClose={() => setResumeOpen(false)}
-                image={"/portofolio/CV.png"}
+                image={"/portofolio/CV_MuhamadAhlilFikri.png"}
             />
         </Fragment>
     )

@@ -105,15 +105,12 @@
     justify-content: left;
     font-size: 25px;
 }
-.contact-container .content-right .text-content .social-media .instagram{
+.contact-container .content-right .text-content .social-media .instagram,.contact-container .content-right .text-content .social-media .linkedin, .contact-container .content-right .text-content .social-media .github{
     margin-right: 20px;
     cursor: pointer;
 }
-.contact-container .content-right .text-content .social-media .linkedin{
-    cursor: pointer;
-}
 
-.contact-container .content-right .text-content .social-media .linkedin:hover, .contact-container .content-right .text-content .social-media .instagram:hover{
+.contact-container .content-right .text-content .social-media .linkedin:hover, .contact-container .content-right .text-content .social-media .instagram:hover, .contact-container .content-right .text-content .social-media .github:hover{
     color: red;
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
