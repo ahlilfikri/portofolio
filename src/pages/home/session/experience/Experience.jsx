@@ -32,6 +32,11 @@ const Experience = () =>{
             title : "Herbal Yuniari",
             description : "Company Profile Website For UMKM Herbal Yuniari",
             image : "/portofolio/HerbalYuniari.png"
+        },
+        {
+            title : "SISTEM PELAPORAN KEJADIAN GANGGUAN, KEAMANAN DAN KETERTIBAN MASYARAKAT (SIJAGAMAS)",
+            description : "SIJAGAMAS enables quick reporting of public disturbances and security issues. It features a user-friendly interface and real-time notifications to help authorities promptly address incidents, enhancing community safety.",
+            image : "/portofolio/SIJAGAMAS.png"
         }
     ]
 
